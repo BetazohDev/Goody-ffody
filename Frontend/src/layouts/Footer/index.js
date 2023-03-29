@@ -20,9 +20,9 @@ const Index = () => {
                                         <span> Location </span>
                                     </a>
 
-                                    <a href="tel:+4491234567" className='flex flex-row gap-1 flex-nowrap justify-center'>
+                                    <a href="tel:+52 4492645580" className='flex flex-row gap-1 flex-nowrap justify-center'>
                                         <PhoneIcon className='w-6'></PhoneIcon>
-                                        <span> +52 4491234567 </span>
+                                        <span> +52 4492645580 </span>
                                     </a>
                                     <a href="mailto:st2474@utr.edu.mx" className='flex flex-row gap-1 flex-nowrap justify-center'>
                                         <EnvelopeIcon className='w-6' />
@@ -42,11 +42,11 @@ const Index = () => {
                                 </p>
                                 <div className="flex justify-center gap-1 mt-4">
 
-                                    <SocialIcon className='hover:opacity-70' url="https://github.com/itsjinendrajain" network="twitter" />
-                                    <SocialIcon className='hover:opacity-70' url="https://github.com/itsjinendrajain" network="instagram" />
-                                    <SocialIcon className='hover:opacity-70' url="https://github.com/itsjinendrajain" network="facebook" />
-                                    <SocialIcon className='hover:opacity-70' url="https://github.com/itsjinendrajain" network="youtube" />
-                                    <SocialIcon className='hover:opacity-70' url="https://www.linkedin.com/in/itsjinendrajain/" network="linkedin" />
+                                    <SocialIcon className='hover:opacity-70' url="https://github.com/daniels99s" network="twitter" />
+                                    <SocialIcon className='hover:opacity-70' url="https://github.com/daniels99s" network="instagram" />
+                                    <SocialIcon className='hover:opacity-70' url="https://github.com/daniels99s" network="facebook" />
+                                    <SocialIcon className='hover:opacity-70' url="https://github.com/daniels99s" network="youtube" />
+                                    <SocialIcon className='hover:opacity-70' url="https://github.com/daniels99s" network="linkedin" />
                                  
 
 
