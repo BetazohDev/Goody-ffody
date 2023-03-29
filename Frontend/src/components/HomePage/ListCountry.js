@@ -48,7 +48,7 @@ const ListCountry = () => {
         <Fragment>
             <div className="container px-5 pt-10 mx-auto border-b-2 border-gray-800">
                 <div className="flex flex-wrap w-full mb-2 flex-col  text-left">
-                    <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2   text-white">Food By Country</h1>
+                    <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2   text-bluegf">Food By Country</h1>
     
                 </div>
             </div>

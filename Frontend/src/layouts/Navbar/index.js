@@ -65,7 +65,7 @@ export default function Navbar() {
         <Fragment>
             
             <Fragment>
-                <header className="relative flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-black">
+                <header className="relative flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-bluegf text-sm py-4 dark:bg-black">
                     <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
                         <div className="flex items-center justify-between">
                             <Link className="flex-none text-xl font-semibold dark:text-white" to="/">
@@ -97,7 +97,7 @@ export default function Navbar() {
                                                 <button type="button" className="p-0 flex items-center w-full uppercase text-base
                                                 font-robotocondensed
                                                 font-bold
-                                                text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">
+                                                text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-bluegf md:dark:hover:bg-transparent">
                                                     <img src={`https://www.themealdb.com/images/category/vegetarian.png`} className="w-4 h-4 mr-1" alt="" />
                                                     {navItem.name}
                                                     <ChevronDownIcon className='w-5 h-5 ml-1 text-green-600 font-bold' />
@@ -105,14 +105,14 @@ export default function Navbar() {
 
                                                 </button>
 
-                                                <div className="hs-dropdown-menu transition-[opacity,margin]  duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 sm:mt-3 top-full left-0 min-w-[15rem] bg-white sm:shadow-md p-2 dark:bg-black   dark:divide-gray-700 before:absolute before:-top-5 before:left-0 before:w-full before:h-5">
+                                                <div className="hs-dropdown-menu transition-[opacity,margin]  duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 w-full hidden z-10 sm:mt-3 top-full left-0 min-w-[15rem] bg-yellowgf sm:shadow-md p-2 dark:bg-black   dark:divide-gray-700 before:absolute before:-top-5 before:left-0 before:w-full before:h-5">
                                                     <div className="sm:grid sm:grid-cols-3">
                                                         {navItem.subMenu.map((Itemss, index2) => {
                                                             // console.log(Itemss);
                                                             return <div key={`subMenu${index2 + 20}`} className="flex flex-col">
                                                                 {Itemss.map((item, index) => {
                                                                     // console.log(item)
-                                                                    return <Link key={`subMenuItem${index2 + 1}${index}`} className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-base text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:hover:font-semibold" to={item.href}>
+                                                                    return <Link key={`subMenuItem${index2 + 1}${index}`} className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-base text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-bluegf dark:hover:font-semibold" to={item.href}>
                                                                         <img src={item.image} className="w-auto h-12" alt="" />
                                                                         {item.name}
                                                                     </Link>

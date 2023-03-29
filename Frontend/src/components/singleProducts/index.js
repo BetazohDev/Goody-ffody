@@ -75,20 +75,20 @@ const Index = (props) => {
 
         <Fragment>
 
-            <section className="text-gray-400 bg-black body-font max-w-5xl  mx-auto min-h-screen">
+            <section className="text-black bg-transparent body-font max-w-5xl  mx-auto min-h-screen">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="lg:w-4/5 mx-auto flex flex-wrap">
                         <img alt="ecommerce" className=" w-full lg:h-auto h-64 object-cover object-center rounded" src={meal.strMealThumb} />
                         <div className="w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                             <Link to={`/category/${meal.strCategory}`}>
 
-                                <h2 className="text-sm title-font text-gray-500 tracking-widest">{meal.strCategory}</h2>
+                                <h2 className="text-sm title-font text-black tracking-widest">{meal.strCategory}</h2>
                             </Link>
-                            <h1 className="text-white text-3xl title-font font-medium mb-1">{meal.strMeal}</h1>
+                            <h1 className="text-black text-3xl title-font font-medium mb-1">{meal.strMeal}</h1>
                             <div className="flex mb-4">
                                 <span className="flex items-center ">
                                     <Link to={`/area/${meal.strArea}`}>
-                                        <span className="text-white font-normal">{meal.strArea}</span>
+                                        <span className="text-black font-normal">{meal.strArea}</span>
                                     </Link>
                                 </span>
                                 <span className="flex items-center ml-3 pl-3 py-2 border-l-2 border-gray-800 text-gray-500 space-x-2">
@@ -153,7 +153,7 @@ const Index = (props) => {
                                         activeState === 0 && <Fragment>
 
 
-                                            <ul className=" stretchAnimation text-left space-y-4 text-gray-500 dark:text-gray-400">
+                                            <ul className=" stretchAnimation text-left space-y-4 text-black dark:text-black">
                                                 {instructions.map((step, index) => {
                                                     if (step.length < 5) {
                                                         return <Fragment key={`instruct${index}`}></Fragment>;
@@ -192,7 +192,7 @@ const Index = (props) => {
                                                                     </a>
                                                                     </Link>
                                                                     <div className="my-3">
-                                                                        <h3 className="text-white text-xs tracking-widest title-font mb-1">{ingredient[0]} {ingredient[1]}</h3>
+                                                                        <h3 className="text-bluegf text-xs tracking-widest title-font mb-1">{ingredient[0]} {ingredient[1]}</h3>
                                                                         {/* <h2 className="text-gray-900 title-font text-lg font-medium">{ingredient[1]}</h2> */}
 
                                                                     </div>

@@ -22,6 +22,18 @@ module.exports = {
         "bounceOnce": 'wiggle 1s ease-in-out 1',
       }
     },
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'white': '#ffffff',
+      'greengf': '#ACCEC0',
+      'bluegf': '#61A6AB',
+      'yellowgf': '#FBEEC2',
+      'greygf': '#605951',
+      'browngf': '#C1B398',
+      'bubble-gum': '#ff77e9',
+      'bermuda': '#78dcca',
+    },
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),

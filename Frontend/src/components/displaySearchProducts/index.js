@@ -50,7 +50,7 @@ const DisplaySearchProducts = () => {
                 <div className="container px-5 pt-24 mx-auto max-w-7xl">
                     <div className="flex  flex-wrap w-full mb-2 flex-col items-center text-center">
                         <SearchForm />
-                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-white">You Search for <span className='text-green-600 lowercase'>{name}</span></h1>
+                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-bluegf">You Search for <span className='text-bluegf lowercase'>{name}</span></h1>
                         {/* <p className=" w-full leading-relaxed text-gray-500">{(getCategoriesDesp) ? getCategoriesDesp : "view our all premium recipies"}</p> */}
                     </div>
                 </div>
@@ -64,11 +64,11 @@ const DisplaySearchProducts = () => {
                                     <Link to={`/recipe/${product.idMeal}`}>
                                         <div className="block relative h-48 rounded overflow-hidden">
                                             <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={product.strMealThumb} />
-                                            <HeartIcon className='text-red-200 hover:h-12 hover:w-12 hover:text-red-600 absolute bottom-0 right-0 w-10 h-10' />
+                                            <HeartIcon className='text-yellowgf hover:h-12 hover:w-12 hover:text-red-600 absolute bottom-0 right-0 w-10 h-10' />
                                         </div>
                                         <div className="mt-4 flex">
                                             {/* <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>  */}
-                                            <h2 className="text-white hover:text-yellow-500 title-font text-lg font-medium">{product.strMeal} recipe</h2>
+                                            <h2 className="text-bluegf hover:text-yellow-500 title-font text-lg font-medium">{product.strMeal} recipe</h2>
 
                                             {/* <p className="mt-1">$16.00</p> */}
                                         </div>
@@ -79,7 +79,7 @@ const DisplaySearchProducts = () => {
                         {noResultFound && <Fragment>
                             <div className="container px-5 py-24 mx-auto">
                                 <div className="flex flex-wrap w-full mb-2 flex-col items-center text-center">
-                                    <p className="sm:text-3xl text-2xl font-bold title-font mb-2 text-white">No Recpie Found</p>
+                                    <p className="sm:text-3xl text-2xl font-bold title-font mb-2 text-bluegf">No Recpie Found</p>
                                     <p className=" w-full leading-relaxed text-gray-500">We are adding More Recpie Soon</p>
                                 </div>
                             </div>

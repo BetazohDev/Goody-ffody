@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Fragment>
       {/* <div>Help</div> */}
-      <main className="text-gray-400  min-h-screen">
+      <main className="text-greygf  min-h-screen">
         <Navbar />
         <Routes>
           // **HomePage

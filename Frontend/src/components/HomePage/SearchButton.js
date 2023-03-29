@@ -13,13 +13,13 @@ const SearchButton = () => {
             typeSpeed={100}
             backSpeed={50}
             loop = {false}
-            className={`md:text-6xl text-5xl  font-oswald  font-medium text-center title-font text-black mb-10`}
+            className={`md:text-6xl text-5xl  font-oswald  font-medium text-center title-font text-bluegf mb-10`}
           />
           
            
           {/* <h1 className="sm:text-4xl text-4xl font-medium text-center title-font text-white mb-4">{gretting}</h1> */}
           <p className="text-2xl leading-relaxed font-robotocondensed  xl:w-2/4 lg:w-3/4 mx-auto">Recipe has no soul.</p>
-          <p className="text-2xl leading-relaxed font-robotocondensed xl:w-2/4 lg:w-3/4 mx-auto">You, as the cook, must <span className='font-semibold'>bring soul</span> to the recipe.</p>
+          <p className="text-2xl leading-relaxed font-robotocondensed xl:w-2/4 lg:w-3/4 mx-auto">You, as the cook, must <span className='font-semibold text-browngf' >bring soul</span> to the recipe.</p>
         </div>
       </div>
 

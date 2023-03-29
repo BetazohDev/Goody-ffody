@@ -17,7 +17,7 @@ const ListAlphabet = () => {
         <Fragment>
             <div className="container px-5 pt-10 mx-auto border-b-2 border-gray-800">
                 <div className="flex flex-wrap w-full mb-2 flex-col  text-left">
-                    <h4 className=" text-2xl font-bold title-font mb-2   text-white">Browse By Name</h4>
+                    <h4 className=" text-2xl font-bold title-font mb-2   text-bluegf">Browse By Name</h4>
     
                 </div>
             </div>
@@ -28,7 +28,7 @@ const ListAlphabet = () => {
                      
                         return <Link key={`${index}`} to={`/alphabet/${charater}`}>
                             <div className="uppercase">
-                                <span className='hover:text-blue-600 hover:underline font-bold text-white '>
+                                <span className='hover:text-blue-600 hover:underline font-bold text-bluegf '>
                                     {charater}
                                     </span> {'z' != charater && <Fragment >
                                     <span className='font-semibold'>/</span>

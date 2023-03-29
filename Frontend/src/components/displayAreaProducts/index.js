@@ -39,14 +39,14 @@ const Index = () => {
 
     return (
         <Fragment>
-            <section className="text-gray-400 bg-black body-font max-w-5xl  mx-auto min-h-screen">
+            <section className="text-gray-400 bg-transparent body-font max-w-5xl  mx-auto min-h-screen">
 
                 <div className="container px-5 pt-24 mx-auto">
                     <div className="flex flex-wrap w-full mb-2 flex-col items-center text-center">
-                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-white"
-                        >ALL <span className='text-green-600'>{name}</span>  Country Recipies
+                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-black"
+                        >ALL <span className='text-greengf'>{name}</span>  Country Recipies
                         </h1>
-                        <p className=" w-full leading-relaxed text-gray-500">view our {name} country premium recipies</p>
+                        <p className=" w-full leading-relaxed text-black">view our {name} country premium recipies</p>
                     </div>
                 </div>
                 <div className="container px-5 py-24 mx-auto">
@@ -59,11 +59,11 @@ const Index = () => {
                                     <Link to={`/recipe/${product.idMeal}`}>
                                         <div className="block relative h-48 rounded overflow-hidden">
                                             <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={product.strMealThumb} />
-                                            <HeartIcon className='text-red-200 hover:h-12 hover:w-12 hover:text-red-600 absolute bottom-0 right-0 w-10 h-10' />
+                                            <HeartIcon className='text-red-600 hover:h-12 hover:w-12 hover:text-red-600 absolute bottom-0 right-0 w-10 h-10' />
                                         </div>
                                         <div className="mt-4 flex">
                                             
-                                            <h2 className="text-white hover:text-yellow-500 title-font text-lg font-medium">{product.strMeal} recipe</h2>
+                                            <h2 className="text-black hover:text-yellow-500 title-font text-lg font-medium">{product.strMeal} recipe</h2>
 
                                           
                                         </div>

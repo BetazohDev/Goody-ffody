@@ -53,7 +53,7 @@ const RandomMeal = () => {
                                             <HeartIcon className='text-red-200 hover:h-12 hover:w-12 hover:text-red-600 absolute bottom-0 right-0 w-10 h-10' />
                                         </div>
                                         <div className="mt-4 flex">
-                                            <h2 className="text-white hover:text-yellow-500 title-font text-lg font-medium">{product.strMeal} recipe</h2>
+                                            <h2 className="text-bluegf hover:text-yellow-500 title-font text-lg font-medium">{product.strMeal} recipe</h2>
                                         </div>
                                     </Link>
                                 </div>

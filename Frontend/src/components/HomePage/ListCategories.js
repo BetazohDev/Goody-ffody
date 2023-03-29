@@ -35,7 +35,7 @@ const ListCategories = () => {
         <Fragment>
             <div className="container px-5 pt-10 mx-auto border-b-2 border-gray-800">
                 <div className="flex flex-wrap w-full mb-2 flex-col  text-left">
-                    <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2   text-white">Food By Category</h1>
+                    <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2   text-bluegf">Food By Category</h1>
     
                 </div>
             </div>
@@ -47,7 +47,7 @@ const ListCategories = () => {
                         return <Link key={`${category.idCategory}`} to={`/category/${category.strCategory}`}>
                             <div className="flex flex-col" title={category.strCategory} >
                                 <img src={category.strCategoryThumb} alt={category.strCategory} className="lg:h-48 md:h-36 w-full object-cover object-center" />
-                                <h1 className="title-font text-3xl font-medium text-white mt-3 text-center">{category.strCategory}</h1>
+                                <h1 className="title-font text-3xl font-medium text-bluegf mt-3 text-center">{category.strCategory}</h1>
                             </div>
                         </Link>
                     })}

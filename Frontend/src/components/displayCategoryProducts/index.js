@@ -42,7 +42,7 @@ const DisplayCategoryProducts = () => {
 
                 <div className="container px-5 pt-24 mx-auto">
                     <div className="flex flex-wrap w-full mb-2 flex-col items-center text-center">
-                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-white">All <span className='text-green-600'>{name}</span> Recipies</h1>
+                        <h1 className="sm:text-3xl text-2xl font-bold title-font mb-2 text-bluegf">All <span className='text-browngf'>{name}</span> Recipies</h1>
                         <p className=" w-full leading-relaxed text-gray-500">{(getCategoriesDesp) ? getCategoriesDesp : "view our all premium recipies"}</p>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ const DisplayCategoryProducts = () => {
                                         </div>
                                         <div className="mt-4 flex">
                                             {/* <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>  */}
-                                            <h2 className="text-white hover:text-yellow-500 title-font text-lg font-medium">{product.strMeal} recipe</h2>
+                                            <h2 className="text-bluegf hover:text-browngf title-font text-lg font-medium">{product.strMeal} recipe</h2>
 
                                             {/* <p className="mt-1">$16.00</p> */}
                                         </div>

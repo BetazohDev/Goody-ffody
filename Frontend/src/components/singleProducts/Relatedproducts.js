@@ -73,7 +73,7 @@ const Relatedproducts = ({ deviceType, Category, idMeal }) => {
 
                                     <img alt="ecommerce" className=" w-full h-auto  object-cover object-center rounded" src={meal.strMealThumb} />
 
-                                    <h3 className="text-white text-xs my-3 tracking-widest title-font mb-1">{meal.strMeal}</h3>
+                                    <h3 className="text-bluegf text-xs my-3 tracking-widest title-font mb-1">{meal.strMeal}</h3>
 
                                 </div>
                             </Link>
