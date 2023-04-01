@@ -72,7 +72,7 @@ export default function Navbar() {
                                 <div className="flex items-center">
                                     <img src="/images/GoodyFoodyLogo.png " 
                                         className="mr-3 lg:block h-8 w-auto " 
-                                    alt="FoodWaves Logo" />
+                                    alt="GoodyFoody Logo" />
                                     
                                 </div>
                             </Link>
