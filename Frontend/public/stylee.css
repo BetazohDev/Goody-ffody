@@ -1,0 +1,61 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="submit"],
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0069d9;
+}
+
+#privacy-policy,
+#terms-of-use {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#privacy-policy a,
+#terms-of-use a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#privacy-policy a:hover,
+#terms-of-use a:hover {
+    text-decoration: underline;
+}
+
+#logout-button {
+    padding: 10px;
+    border: none;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+}
+
+#logout-button:hover {
+    background-color: #c82333;
+}
