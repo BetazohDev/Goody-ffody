@@ -1,0 +1,20 @@
+{
+  "name": "goody-ffody",
+  "version": "1.0.0",
+  "description": "Project Universitary",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "cd back && npm install && npm run build && cd ../front && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BetazohDev/Goody-ffody.git"
+  },
+  "author": "implementation team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BetazohDev/Goody-ffody/issues"
+  },
+  "homepage": "https://github.com/BetazohDev/Goody-ffody#readme"
+}
