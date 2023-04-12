@@ -52,6 +52,14 @@ export default function Navbar() {
 
         })
 
+        tempNavigation.push({
+            type: navType.item,
+            name: "Register",
+            href: '/Frontend/public/register.html',
+            current: false,
+
+        })
+
         setNavItems(tempNavigation)
 
         // console.log({ nav: navItems })
